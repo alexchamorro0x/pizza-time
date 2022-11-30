@@ -1,12 +1,12 @@
 # Pizza Time
 
-<img src="https://github.com/catherineisonline/pizza-time-with-react/blob/main/src/assets/images/project-preview.png?raw=true" ></img>
+<img src="https://github.com/alexchamorro0x/pizza-time/blob/main/src/assets/images/project-preview.png?raw=true" ></img>
 
 Pizza Time, a pizza restaurant that offers online order services, is one of the most interesting projects I am planning to implement. The goal of this project is to make this restaurant landing page look almost like an actual working bussiness. It should have all the interactivity usual e-commerce websites have.
 
 Live Version:
 
-[Pizza Time](https://pizza-time-with-react.vercel.app/)
+[Pizza Time](https://pizza-time.netlify.app/)
 
 ## Contents
 
@@ -241,7 +241,7 @@ This is the first version of the project which was last updated in March 8
 
 1. Installed <a href="https://www.npmjs.com/package/gh-pages">gh-pages</a> (npm install gh-pages --save-dev)
 2. Then I created a new repository myself called gh-pages (for some reason I expected the package to create it on it's own but it didn't). I am not I remmeber how I did it, I am still learning.
-3. I made sure that my package.json files have these lines in scripts: "predeploy": "npm run build", "deploy": "gh-pages -d build" and separate line "homepage": "/pizza-time-with-react". Now this is where I made a misrake at first. I read that either you need to add the whole URL like https://github.com/catherineisonline/pizza-time-with-react. However it didn't work. Then I read you need to write "homepage": "." or "homepage": "/" and it didn't help either. Finally I simply wrote the name only and it helped. So it should be "homepage": "name of the repository not including (https://github.com/yourgithubusername)".
+3. I made sure that my package.json files have these lines in scripts: "predeploy": "npm run build", "deploy": "gh-pages -d build" and separate line "homepage": "/pizza-time". Now this is where I made a misrake at first. I read that either you need to add the whole URL like https://github.com/alexchamorro0x/pizza-time. However it didn't work. Then I read you need to write "homepage": "." or "homepage": "/" and it didn't help either. Finally I simply wrote the name only and it helped. So it should be "homepage": "name of the repository not including (https://github.com/yourgithubusername)".
 4. I deleted .cache file in node modules folder but I am not 100% sure if that helped.
 5. Then also make sure that you need to change setting in your repository. Go to Settings > Pages > and under Source select branch called gh-pages (the one I created manually).
 
