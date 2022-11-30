@@ -9,7 +9,7 @@ export default class FooterSocials extends React.Component {
       <ul className="socials">
         <li>
           <a
-            href="https://github.com/catherineisonline/pizza-time-with-react"
+            href="https://github.com/alexchamorro0x/pizza-time"
             target="_blank"
             rel="noreferrer"
           >
@@ -18,7 +18,7 @@ export default class FooterSocials extends React.Component {
         </li>
         <li>
           <a
-            href="https://www.linkedin.com/in/catherinemitagvaria/"
+            href="https://www.linkedin.com/in/aochamorro/"
             target="_blank"
             rel="noreferrer"
           >
@@ -27,7 +27,7 @@ export default class FooterSocials extends React.Component {
         </li>
         <li>
           <a
-            href="https://ekaterine-mitagvaria.vercel.app/"
+            href="https://alexchamorro0x.github.io/"
             target="_blank"
             rel="noreferrer"
           >
